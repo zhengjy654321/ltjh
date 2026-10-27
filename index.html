@@ -17,6 +17,11 @@
   .sub { color: var(--muted); font-size: 18px; max-width: 640px; margin: 0 auto 28px; }
   .cta { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 14px 34px; border-radius: 999px; font-size: 18px; font-weight: 600; box-shadow: 0 6px 20px rgba(31,111,209,.3); }
   .cta.alt { background: transparent; color: var(--accent); border: 2px solid var(--accent); box-shadow: none; margin-left: 10px; }
+  .rec { margin: 0 auto 22px; }
+  .cta.big { font-size: 24px; padding: 18px 46px; background: linear-gradient(135deg,#ff7a2f,#ff4d4d); box-shadow: 0 8px 26px rgba(255,90,50,.45); }
+  .pw { margin-top: 12px; font-size: 22px; }
+  .pw b { font-size: 28px; letter-spacing: 2px; color: #ff4d4d; }
+  .pw button { margin-left: 10px; font-size: 16px; padding: 6px 16px; border-radius: 999px; border: 2px solid #ff4d4d; background: transparent; color: #ff4d4d; cursor: pointer; }
   .cta:hover { filter: brightness(1.08); }
   .hint { color: var(--muted); font-size: 13px; margin-top: 12px; }
   .figs { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; margin: 20px 0 56px; }
@@ -39,6 +44,11 @@
   <div class="logo">SOGEO</div>
   <h1>Sogeo 立体几何绘图器</h1>
   <p class="sub">为数学题配图而做的立体几何绘图工具。从底面开始画，一键成柱、成锥，被遮挡的棱自动画成虚线，几秒钟画出教材风格的立体图。</p>
+  <div class="rec">
+    <a class="cta big" href="https://wwasv.lanzouc.com/ijvPJ4dbvmah">⚡ 推荐下载 · 速度最快</a>
+    <div class="pw">密码：<b id="pw">3o7p</b> <button onclick="navigator.clipboard.writeText('3o7p').then(()=>{this.textContent='已复制 ✓';setTimeout(()=>this.textContent='复制密码',1500)},()=>{this.textContent='请手动复制'})">复制密码</button></div>
+  </div>
+  <div style="margin-top:6px"></div>
   <a class="cta" href="https://github.com/zhengjy654321/Solid-geometry-drawing/releases/download/v1.0.4/Sogeo.apk">下载 APK（1.0.4）</a>
   <div style="margin-top:14px"><a class="cta" href="https://a2758d7304128ead5.apps.workbuddy.host/?sharecode=TIB3V7ECA7">备用下载入口</a></div>
   <p class="hint">安卓手机下载后直接安装（需允许“安装未知来源应用”）</p>
